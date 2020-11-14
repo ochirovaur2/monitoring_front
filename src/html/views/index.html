@@ -1,0 +1,55 @@
+<% var data = {
+  title: "Массовые проблемы"
+  }; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<!-- {% extends 'shop/body.html' %}
+{% load static %}
+{% block title %}
+{% if sub_category %}{{ sub_category.title_mcat }}  | Онлайн-магазин Вкусная Лавка {% else %}{% if category %}{{ category.title_cat }}  | Онлайн-магазин Вкусная Лавка{% else %}Каталог | Онлайн-магазин Вкусная Лавка{% endif %}{% endif %}
+{% endblock title %}
+{% block body_section %} -->
+
+<!-- Main -->
+
+	<div class="container" >
+		
+		<div monitoring_section>
+			<div class="tickets-spere">
+				<div id="myCanvasContainer">
+			      <canvas width="900px" height="900px" id="myCanvas">
+			        
+			      </canvas>
+			    </div>
+			    <div id="tags">
+			      <ul>
+			        
+			        <li><a href="http://www.google.com" target="_blank" class="a-little-big-size color-yellow">ЛК: 32</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="normal-size color-white">Договор: 18</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="small-size color-green">Контрагент: 7</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="quite-big color-red">ПВЗ: 45</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="big-size color-white">Сортер: 23</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="small-size color-green">Кредитный контроль: 5</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="normal-size color-white">Взаиморсчеты: 20</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="a-little-big-size color-white">Курьеры: 28</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="normal-size color-white">Склад: 21</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="small-size color-green">2FA: 3</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="quite-big color-red">Почта: 41</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="big-size color-red">1С: 50</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="normal-size color-white">Бухгалтерия: 20</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="normal-size color-white">Заказ: 18</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="a-little-big-size color-yellow">Интеграция: 32</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="big-size color-red">Банк: 58</a></li>
+			        <li><a href="http://www.google.com" target="_blank" class="small-size color-green" id='test'>Почта: 4</a></li>
+			      </ul>
+			    </div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+
+
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>

@@ -1,0 +1,89 @@
+<% var data = {
+  title: "Каталог | Онлайн-магазин Вкусная Лавка",
+  author: ""
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<div class="container">
+	<div class="row height catalog__content">
+		<!-- Хлебные крошки -->
+    
+        <!-- <div class="breadcrumbs">
+            <a href="/index.html" class="active">Главная</a>
+            <a  href="/.html">О нас</a>
+            <a href="/about.html">Что-то</a>
+            <a href="/about.html">Что-то</a>
+        </div>
+		<h2 class="heading-secondary my-b-normal">
+			<i class="fas fa-store-alt primary-color"></i>
+			
+			Каталог
+		</h2> -->
+		<ul class="pgwSlider">
+			    <li><img src="./img/fotorama/2.jpg" ></li>
+			    <li><img src="./img/fotorama/3.jpg" ></li>
+			   
+			</ul>
+		<div class="advantages">
+			<div class="advantages__box">
+				<i class="fas fa-shipping-fast advantages__icon"></i>
+				
+				<p class="paragraph">Молниеносная доставка</p>
+			</div>
+			<div class="advantages__box">
+				<i class="fab fa-pagelines advantages__icon"></i>
+				
+				<p class="paragraph">Продукты от природы</p>
+			</div>
+			<div class="advantages__box">
+				<i class="fas fa-thumbs-up advantages__icon"></i>
+				
+				<p class="paragraph">Вся продукция сертифицирована!</p>
+			</div>
+		</div>
+		<div class="catalog-box features__cards-my-bottom">
+			<a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/1.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>   
+	        <a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/1.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>   
+	        <a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/1.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>   
+	        <a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/1231.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a> 
+		    <a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/1231.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>     
+		    <a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/12.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>  
+		    <a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/51.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>  
+			<a href="/catalog/Orehi" class="catalog-box__link">
+		      <img src="img/catalog/1234.jpg" alt="Card" class="catalog-box__img">
+		      <span class="catalog-box__name">Орехи</span>
+		    </a>  	
+		</div>	
+
+		
+
+
+		
+		
+        
+	</div>
+	
+</div>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>

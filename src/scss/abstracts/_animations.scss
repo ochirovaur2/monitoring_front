@@ -1,0 +1,35 @@
+/* Animations */
+
+@keyframes animateHeaderArrow{
+	0% {
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); 
+	}
+  100% {
+    opacity: 1;
+    transform: translate(0);
+	} 
+}
+
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+
+
+/* /Animations */
